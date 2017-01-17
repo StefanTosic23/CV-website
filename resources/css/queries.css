@@ -1,0 +1,87 @@
+/* SMALL PHONES TO SMALL TABLETS: FROM 481 TO 767 PX */
+@media only screen and (max-width: 767px){
+    
+    
+    .left-column,
+    .right-column{
+        margin: 0;
+        float: none;
+        width: auto;
+    }
+    
+    .text-info{ padding-right: 0; }
+    
+    .education{
+        margin-bottom: 5em;
+    }
+    
+    .left-column{
+    margin-left: 0.5em;
+    }
+    
+    .about-me,
+    .tech-skills{
+        margin-bottom: 2.25em;
+    }
+    
+    .lang-info{ margin-left: 0.5em;}
+    
+    .indoor-activities{ margin-bottom: 1em; }
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .text-info{ padding-right: 0;}
+    
+    .left-column,
+    .right-column{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .desktop{ display: none;}
+    .mobile-only{ display: block; }
+    .names-left{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .containers-right{ display: none; }
+    
+    .tech-skills,
+    .management-skills,
+    .personal-skills{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skill-container{
+        width: 100%;
+        float: none;
+        margin-bottom: 0.75em
+    }
+    
+    .about-me{ margin-bottom: 2.25em; }
+    .education{ margin-bottom: 2.25em; }
+    .tech-skills{ margin-bottom: 2.25em; }
+    .lang-circles{ margin-bottom: 2.25em; }
+    
+    .one-of-three{ 
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .serbian,
+    .english{
+        margin-bottom: 1em;
+    }
+    
+    .film{ margin-right: 28.8vmin}
+    
+    .outdoor-activities,
+    .indoor-activities{
+        margin-left: 0;
+    }
+    
+}
