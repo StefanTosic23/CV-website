@@ -43,6 +43,8 @@ ul{
 }
 p{
     margin: 0;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
 }
 
                     /* ------------------------------------------- */
@@ -123,8 +125,8 @@ header{
     margin-bottom: 1.75em;
 }
 
-.address-text,
-.contact-info{ font-size: 2.9vmin; }
+.address_text,
+.contact_info{ font-size: 2.9vmin; }
 
 .address,
 .name,
@@ -134,8 +136,13 @@ header{
 
 .info{ word-spacing: 0.25em; padding-bottom: 0.25em; }
 
-.site{ 
+.info_site{ 
     text-decoration: none;
+    color: #58AAE1;
+}
+
+.info_github{ 
+    text-decoration: none; 
     color: #58AAE1;
 }
 
@@ -155,11 +162,6 @@ header{
 
 .about-me{
     margin-bottom: 10em;
-}
-
-.p-text{
-    font-size: 0.8em;
-    letter-spacing: 0.05em;
 }
 
 /* ----------------- EDUCATION ------------------ */
@@ -232,7 +234,7 @@ header{
     margin-bottom: 0.55em;
 }
 
-.skill{
+.skill-container_skill{
     height: 0.45em;
     background-color: #AC75C2;
     border: 0.05em solid #A468BC;
@@ -296,8 +298,8 @@ header{
 
 .lang-circles{ margin-bottom: 2em; }
 
-.serbian,
-.english{
+.lang-circles_serbian,
+.lang-circles_english{
     position: relative;
     display: inline-block;
     height: 4.25em;
@@ -306,7 +308,7 @@ header{
     border-radius: 100%;
 }
 
-.german{
+.lang-circles_german{
     position: relative;
     display: inline-block;
     height: 4.25em;
@@ -364,8 +366,8 @@ header{
     justify-content: space-between;
 }
 
-.fishing{ margin-right: 24vmin;}
-.film{ margin-right: 27.4vmin}
+.outdoor-activities_fishing{ margin-right: 24vmin;}
+.indoor-activities_film{ margin-right: 27.4vmin}
 
 
 /* ----------------- ACCORDION CODE ------------------ */
@@ -388,10 +390,10 @@ dt{
     cursor: pointer;
 }
 
-.accordion-text{
+.accordion_text{
     font-size: 0.7em;
     color: #4f285f;
-    padding: 0.5em 0 0.2em 0.5em;
+    padding: 0.5em 0 0.2em 0.7em;
 }
 
 .ion-chevron-down,

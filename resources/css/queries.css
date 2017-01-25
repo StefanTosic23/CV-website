@@ -72,12 +72,13 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .serbian,
-    .english{
+    
+    .lang-circles_serbian,
+    .lang-circles_english{
         margin-bottom: 1em;
     }
     
-    .film{ margin-right: 28.8vmin}
+    .indoor-activities_film{ margin-right: 28.8vmin}
     
     .outdoor-activities,
     .indoor-activities{
